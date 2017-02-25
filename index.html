@@ -1,0 +1,12 @@
+<body>
+    <h1></h1>
+</body>
+<script src="//rawgit.com/magnumjs/mag.js/master/mag-latest.min.js"></script>
+<script>
+    var root = document.body
+
+    mag.module(root, {
+        view: (state) => state.h1 = "hello world"
+    })
+    state.h1 = "My first app"
+</script>
